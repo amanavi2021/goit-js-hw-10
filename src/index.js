@@ -38,7 +38,10 @@ function onSearch(e) {
           
     } 
     )
-    .catch(error=> console.log(error))
+    .catch(error=> {
+        clearInfo();
+        console.log(error);
+        } )
 
    } else {
     clearInfo();
