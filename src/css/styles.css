@@ -10,6 +10,11 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-image: url(/src/bg2.jpg);
 }
 
 #search-box {
@@ -33,4 +38,17 @@ body {
 
 .country-info__text {
   font-weight: 700;
+  font-size: 20px;
 }
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.country-list__name{
+  margin: 0 20;
+  font-size: 16px;
+  font-weight: 700;
+ }
